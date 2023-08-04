@@ -1,0 +1,16 @@
+.button-group {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .button-group button {
+    margin: 0 5px;
+    width: 50%;
+    color: grey;
+  }
+
+  .selected-wrong-option {
+    color: black !important;
+  }
